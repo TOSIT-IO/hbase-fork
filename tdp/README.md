@@ -1,6 +1,6 @@
 # TDP HBase Notes
 
-The version 2.1.10-1.0-SNAPSHOT of HBase is based on the `branch-2.1` tag of the Apache [repository](https://github.com/apache/hbase/tree/branch-2.1).
+The version 2.1.10-1.0 of HBase is based on the `branch-2.1` tag of the Apache [repository](https://github.com/apache/hbase/tree/branch-2.1).
 
 ## Jenkinfile
 
@@ -12,7 +12,7 @@ The file `./Jenkinsfile-sample` can be used in a Jenkins / Kubernetes environmen
 mvn clean package assembly:single -DskipTests -Dhadoop.profile=3.0
 ```
 
-The command generates a `.tar.gz` file of the release at `./hbase-assembly/target/hbase-2.1.10-1.0-SNAPSHOT-bin.tar.gz`. 
+The command generates a `.tar.gz` file of the release at `./hbase-assembly/target/hbase-2.1.10-1.0-bin.tar.gz`. 
 
 Replace `package` for `install` in the above command to ensure built package is available in your local maven repository post build.
 
