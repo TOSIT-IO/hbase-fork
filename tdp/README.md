@@ -30,3 +30,7 @@ mvn test -Dhadoop.profile=3.0
 ## Test execution notes
 
 See `./test_notes.txt`
+
+## Build notes
+
+Commit `ab28cf08e34907d1dabe0fdb001841ee287acb82` adds extra options to HBase HBCK. A backport from HBase 2.4.
